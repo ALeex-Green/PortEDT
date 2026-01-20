@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="558bec23-d43f-4dcf-bb83-be99488aff01">
+  <producedTypes>
+    <objectType typeId="55494f99-4c79-43cb-8bee-90a6a5a9d1db" valueTypeId="e43d4da3-4d29-496a-8a72-2b25f1aa5d60"/>
+    <refType typeId="63476ff1-847b-46be-8eb6-8979598aba7a" valueTypeId="9408ba1c-4b4f-4209-8951-8354f41d11ea"/>
+    <selectionType typeId="852e4405-0725-457e-b21e-77817db2e194" valueTypeId="13bb4a83-c2eb-41fa-a508-e6fb51c5acf3"/>
+    <listType typeId="1133b712-0fb6-4de1-b80c-028c7edb64e3" valueTypeId="27426f77-7e09-4596-8684-3e3ad152007e"/>
+    <managerType typeId="6ec47d0f-f76a-406f-8240-3dd2489c07ff" valueTypeId="3d211ff3-d6e7-4d6a-a547-27619e9ea418"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Склад</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="a48904f5-6633-496b-a712-2e2fbf06282c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6760085a-30f6-41cc-81dc-b1f00fabf13a">
+  <producedTypes>
+    <objectType typeId="35612959-8922-427e-a422-f3536f57a6a7" valueTypeId="5d576d1f-e910-4abc-89b4-c305fc58effe"/>
+    <refType typeId="b2e6aabf-e8d6-4631-b397-22a4c0efa098" valueTypeId="112557fa-5d9c-4669-947c-9a35a3dc0759"/>
+    <selectionType typeId="efc870d7-7872-49ae-b184-cf7e060e17b1" valueTypeId="3aa6875e-fc82-42c0-bbab-2244b039e49d"/>
+    <listType typeId="25ec759a-4d2b-4c0b-a50b-b4ef488a34c8" valueTypeId="ffae83fc-90f9-461f-a31c-a5ebe8a62937"/>
+    <managerType typeId="3a87810e-3502-4369-8b02-17d3ec91ad62" valueTypeId="f57be941-5e42-4d1a-a9fe-dc805ec904bc"/>
+  </producedTypes>
+  <name>Производители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Производители.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Производители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Производитель</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8d259f71-6771-4d9c-8af7-0606db201896">
+    <name>СтранаПроизводитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна производитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

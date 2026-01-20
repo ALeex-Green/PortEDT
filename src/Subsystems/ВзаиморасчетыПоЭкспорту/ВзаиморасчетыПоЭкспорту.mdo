@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1d77992-3509-4f31-b144-383890f3ce7e">
+  <name>ВзаиморасчетыПоЭкспорту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты по экспорту</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+</mdclass:Subsystem>

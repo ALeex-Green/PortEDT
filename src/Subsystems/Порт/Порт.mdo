@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b6395f7-957e-4e44-87c4-56ed2a3da6b7">
+  <name>Порт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Номенклатура</content>
+</mdclass:Subsystem>

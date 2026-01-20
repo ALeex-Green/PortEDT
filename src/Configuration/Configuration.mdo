@@ -15,6 +15,7 @@
   <configurationExtensionCompatibilityMode>8.3.27</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
@@ -33,11 +34,11 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Управление Торговым Предприятием</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Управление Торговым Предприятием</value>
   </detailedInformation>
   <splash/>
   <copyright>
@@ -64,6 +65,11 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.ВзаиморасчетыПоИмпорту</subsystems>
+  <subsystems>Subsystem.ВзаиморасчетыПоЭкспорту</subsystems>
+  <subsystems>Subsystem.Фракт</subsystems>
+  <subsystems>Subsystem.Порт</subsystems>
+  <subsystems>Subsystem.Аналитика</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -2229,6 +2235,14 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.АктОбУничтоженииПерсональныхДанных</documents>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
